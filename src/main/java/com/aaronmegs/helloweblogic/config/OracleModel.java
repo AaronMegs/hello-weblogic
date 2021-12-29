@@ -1,10 +1,10 @@
 package com.aaronmegs.helloweblogic.config;
 
 /**
- * @author gaoshuai
+ * @author AaronMegs
  * @create 2021/10/26
  */
-//@Data - 不使用lombok是因为 weblogic12c.1.1.1.0 生产模式下不能识别 module-info.class 类
+//@Data - 不使用lombok是因为 weblogic12c.2.1.1.0 生产模式下不能识别 module-info.class 类
 public class OracleModel {
     private String url;
 
